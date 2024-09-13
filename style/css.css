@@ -58,6 +58,7 @@ body,html{
     align-items: center;
     height: 100%;
     width: 42%;
+    margin-right: -5%;
 }
 .top_text{
     display: flex;
@@ -169,7 +170,7 @@ width: 48%;
 justify-content: flex-start;
 align-items: flex-start;
 width: 100%;
-margin-bottom: 100px;
+margin-bottom: 50px;
 }
 .sweep h1 {
     color: #fff;
@@ -274,6 +275,7 @@ line-height: 24px;
     align-items: center;
     justify-content: center;
     margin-bottom: 150px;
+    margin-top: -100px;
 }
 .jack_blokc{
     position: relative;
@@ -433,6 +435,7 @@ z-index: 3;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-right: 6%;
 }
 .cont_5 a{
     width: 200px;
@@ -485,7 +488,7 @@ z-index: 3;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        width: 70%;
+     padding-left: 20%;
         border-width: 2px;
         border-style: solid;   
         border-color: #D47000;    
@@ -498,7 +501,7 @@ z-index: 3;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        width: 85%;
+        padding-left: 20%;
         border-width: 2px;
         border-style: solid;   
         border-color: #D47000;    
@@ -511,7 +514,7 @@ z-index: 3;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        width: 40%;
+        padding-left: 20%;
         border-width: 2px;
         border-style: solid;   
         border-color: #D47000;    
@@ -677,7 +680,7 @@ color: #fff;
 .jack_blokc hr{
     height: 100px;
     width: 1px;
-    background: linear-gradient(180deg, #D47000 0%, #6E3A00 100%);
+    background: #D47000;
     border: none;
 }
 .jack_blokc-1 hr{
@@ -798,7 +801,7 @@ line-height: 40px;
 }
 .jack_blokc-1 img {
     width: 60%;
-    margin-bottom: 7px;
+    margin-bottom: 20px;
 }
 .text_container{
     width: 100%;
@@ -908,19 +911,20 @@ color: #fff;
     align-items: center;
     justify-content: space-between;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 .mobii .bottom_jack{
-    width: 50%;
+    width: 60%;
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 0px;
     padding-bottom: 0px;
+     
 }
 .mobii .top_jack img{
-    width: 55%;
+    width: 50%;
     height: auto;
 }
 .mobii .top_jack .rate_jack{
@@ -967,19 +971,20 @@ margin-top: 0;
 .mobii .bottom_jack h2{
     text-align: center;
     color: #000;
-    font-size: 22px;
-    font-weight: 800;
+    font-size: 30px;
+    font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 .mobii .bottom_jack h3{
     color: #000;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 10px;
     margin-top: 0px;
+    margin-top: 15px;
 }
 .mobii .bottom_jack p{
     color: #000;
@@ -992,19 +997,18 @@ margin-top: 0;
 
 }
 .mobii .bottom_jack a{
-    width: 200px;
-    height: 45px;
+    width: 250px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     color: #875600 ;
-    font-size: 17px;
+    font-size: 28px;
     font-weight: 700;
     background: linear-gradient(180deg, #FFFFFF 0%, #FFCB92 100%);
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom: 10px;
-    text-transform: uppercase;
 }
 .mobii .bottom_pop{
   
@@ -1022,6 +1026,9 @@ font-weight: 300;
 line-height: 14.94px;
 text-align: center;
 margin-bottom: 10px;
+}
+.mobbi .jack_blokc-1 img{
+    margin-bottom: 20px;
 }
 .top_pp{
     width: 70%;
@@ -1060,8 +1067,11 @@ margin-bottom: 10px;
     width: 80%;
 }
 .mobii .jack_blokc-1 hr{
-    height: 1px;
-    width: 80%;
+    height: 2.5px;
+    width: 90%;
+    background-color: #D47000;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 .con-1-2 {
     display: flex;
@@ -1167,6 +1177,7 @@ margin-bottom: 10px;
     }
     .cont_5 {
         width: 50%;
+        margin-right: 0%;
     }
     .mobi_cont img {
         width: 70%;
@@ -1176,6 +1187,7 @@ margin-bottom: 10px;
     }
     .mobi_cont {
         width: 90%;
+        margin-right: 0%;
     }
     
     .jack_blokc-1{
@@ -1380,10 +1392,13 @@ margin-bottom: 10px;
         flex-wrap: wrap;
     }
     .are-1 {
-        width: 90%;
+      padding-left: 20px;
     }
     .are-3 {
-        width: 90%;
+        padding-left: 20px;
+    }
+    .are-5{
+        padding-left: 20px;
     }
     .are_blokc p {
         font-size: 20px;
@@ -1422,6 +1437,9 @@ margin-bottom: 10px;
         background-image: url(../img/bgg_mob.png);
         background-size: cover;
         background-position-y: bottom;
+    }
+    .jack_top{
+        margin-top: 50px;
     }
 }
 
