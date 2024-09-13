@@ -83,6 +83,7 @@ body,html{
     display: flex;
     justify-content: space-between;
     padding-bottom: 0px;
+    margin-top: -100px;
 }
 .selection{
     width: 45%;
@@ -281,7 +282,7 @@ line-height: 24px;
     position: relative;
     z-index: 2;
     width: 80%;
-    height: 130px;
+    height: 160px;
     display: flex;
     justify-content: space-between;
     border: 3px solid #C25E00;
@@ -360,7 +361,7 @@ z-index: 3;
 }
 .cont_2 h2{
     color: #FFFFFF;
-    font-size: 32px;
+    font-size: 40px;
     line-height: 55px;
     font-weight: 800;
     text-transform: uppercase;
@@ -401,11 +402,11 @@ z-index: 3;
     width:95%;
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .cont_3 h3{
     font-family: "Helvetica";
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 30px;  
     text-transform: uppercase;
@@ -413,7 +414,7 @@ z-index: 3;
     color: #fff;
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .cont_4{
     width: 21%;
@@ -446,7 +447,7 @@ z-index: 3;
     justify-content: center;
     text-decoration: none;
     color: #875600;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
     background: linear-gradient(180deg, #FFFFFF 0%, #FFCB92 100%);
     border-radius: 17px;
@@ -1025,7 +1026,7 @@ font-size: 16px;
 font-weight: 300;
 line-height: 14.94px;
 text-align: center;
-margin-bottom: 10px;
+margin-bottom: 0px;
 }
 .mobbi .jack_blokc-1 img{
     margin-bottom: 20px;
@@ -1277,6 +1278,7 @@ margin-bottom: 10px;
     .cont{
         flex-direction: column;
         align-items: center;
+        margin-top: 0;
     }
     .selection{
         width: 100%;
