@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SweepTop</title>
+    <title>TopCasi</title>
     <link rel="stylesheet" href="style/css.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 </head>
@@ -42,24 +42,12 @@
         </div>
         </div>
     </div>
-    <div class="pop_up_cont">
-        <div class="pop_up">
-            <h2>Age Verification</h2>
-            <div class="bottom_block_pop">
-            <p>Are you 19 years of age or older?</p>
-            <div class="button_block">
-                <button id="yes" style="background-color: #D47000;">Yes</button>
-                <button id="no" style="background-color: #000000;">No</button>
-            </div>
-        </div>
-        </div>
-    </div>
+ 
     <div class="bg_blur">
     <div class="top">
         <div class="top_blokc">
             <a href="index.html"><img src="img/logo.png" alt=""></a>
 
-            <p>For players aged 19 and over, terms and <br> conditions apply!</p>
         
         </div>
     </div>
@@ -122,7 +110,6 @@
                 </div>
             </div>  
         </div>
-        <p>For players aged 19 and over, terms and conditions apply!</p>
     
         <div class="jack_blokc" id="go_second">
             <div class="mobi_cont">
@@ -154,7 +141,6 @@
                 </div>
             </div>  
         </div>
-        <p>For players aged 19 and over, terms and conditions apply!</p>
         
         <div class="jack_blokc" id="go_third">
             <div class="mobi_cont">
@@ -186,7 +172,6 @@
                 </div>
             </div>  
         </div>
-        <p>For players aged 19 and over, terms and conditions apply!</p>
         <div class="jack_blokc" id="go_four" >
             <div class="mobi_cont">
             <div class="cont_1">
@@ -217,7 +202,6 @@
                 </div>
             </div>  
         </div>
-        <p>For players aged 19 and over, terms and conditions apply!</p>
         <div class="jack_blokc" id="go_five">
             <div class="mobi_cont">
             <div class="cont_1">
@@ -248,7 +232,6 @@
                 </div>
             </div>  
         </div>
-        <p>For players aged 19 and over, terms and conditions apply!</p>
        </div> 
         
         
@@ -311,7 +294,7 @@
             <a href=""><img src="./img/sait-5.png" alt=""></a>
             <a href=""><img src="./img/sait-6.png" alt="https://www.gambleaware.org"></a>
             <a href=""><img src="./img/sait-7.png" alt=""></a>
-            <a href=""><img src="./img/sait-8.png" alt="https://www.gamstop.co.uk"></a>
+            <a href="" class="osob"><img src="./img/sait-8.png" alt="https://www.gamstop.co.uk"></a>
         </div>
         <div class="about">
       
@@ -335,12 +318,8 @@
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script>
-    $('#yes').on('click',function(){
-        $('.pop_up_cont').css('display','none');
-    });
-    $('#no').on('click',function(){
-        $('body').css('display','none');
-    });
+  
+
     setTimeout(() => {
         $('.pop_best_offer').css('display','flex');
     }, 40000);
